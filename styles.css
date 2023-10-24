@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Karla';
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body {
+    padding: 10px;
+    background-color: rgb(224, 237, 240);
+}
+
+#card {
+    /* width: 670px;
+    height: 500px; */
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Top Section */
+
+#top-section {
+    background-color: rgb(255, 255, 255);
+    height: 45%;
+    padding: 25px;
+}
+
+#top-section h2 {
+    color: #2ab2af;
+    margin-bottom: 35px;
+}
+
+#top-section h4 {
+    margin-bottom: 15px;
+    color: #c0df34;
+}
+
+#top-section p {
+    color: #98a6bd;
+    margin-bottom: 5px;
+}
+
+/* Bottom section */
+
+#bottom-section {
+    width: 100%;
+    height: 55%;
+    color: white;
+}
+
+/* Bottom left section */
+
+#bottom-left-section {
+    width: 100%;
+    background-color: #2ab2af;
+    padding: 25px;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#bottom-left-section h3 {
+    margin-bottom: 20px;
+}
+
+#price-container {
+    margin-bottom: 15px;
+}
+
+#price {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+#price-description {
+    display: inline-block;
+    position: relative;
+    top: -3px;
+    opacity: 0.7;
+    margin-left: 8px;
+}
+
+#full-access {
+    margin-bottom: 40px;
+    font-size: 0.9rem;
+}
+
+button {
+    background-color: #c0df34;
+    border: none;
+    border-radius: 8px;
+    height: 48px;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    font-weight: 700;
+    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    transform: scale(1.009);
+}
+
+/* Bottom right section */
+
+#bottom-right-section {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    padding: 25px;
+    background-color: #2ebfbd;
+}
+
+#bottom-right-section h3 {
+    margin-bottom: 20px;
+}
+
+#bottom-right-section ul {
+    list-style: none;
+    padding: 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+#bottom-right-section li {
+    margin-bottom: 5px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+footer a {
+    color: inherit;
+}
+
+footer a:hover {
+    color: #2ebfbd;
+}
+
+/* Media queries */
+@media (min-width: 576px) {
+    #card {
+        width: 670px;
+        height: 500px;
+    }
+
+    #bottom-left-section, #bottom-right-section {
+        width: 50%;
+    }
+}
